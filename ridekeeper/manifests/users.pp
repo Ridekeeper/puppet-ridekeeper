@@ -27,6 +27,10 @@ class ridekeeper::users {
 			ensure => present,
 			groups => ['mmckeen','admin'],
 			shell  => '/bin/bash';
+		'ridekeeper':
+			ensure => present,
+			groups => ['ridekeeper','admin'],
+			shell  => '/bin/bash';
 	}
 
 }
