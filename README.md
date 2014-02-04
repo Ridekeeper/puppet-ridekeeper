@@ -1,4 +1,4 @@
 puppet-ridekeeper
 =================
 
-Puppet module for managing the RideKeeper development server.
+Puppet modules for managing the RideKeeper development server.
